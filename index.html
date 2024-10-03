@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Profil Pribadi</title>
+    <!-- Menambahkan Font Awesome untuk ikon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', Arial, sans-serif;
+            background-color: #f4f4f4;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #3498db;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Menambahkan font Poppins dan membuat teks putih */
+        header h1 {
+            font-family: 'Poppins', sans-serif;
+            font-size: 36px;
+            color: white;
+            font-weight: 600;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+
+        .profile {
+            text-align: center;
+        }
+
+        .profile img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+        }
+
+        .about, .skills {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: #fff;
+            margin-top: 20px;
+        }
+
+        /* Style untuk ikon media sosial */
+        .social-icons a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            transition: color 0.3s ease;
+        }
+
+        .social-icons a:hover {
+            color: #3498db;
+        }
+
+        /* Media Queries untuk Responsivitas */
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+            }
+
+            nav {
+                display: flex;
+                flex-direction: column;
+            }
+
+            nav a {
+                padding: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Profil Saya</h1>
+    </header>
+
+    <nav>
+        <a href="#about">Tentang Saya</a>
+        <a href="#skills">Informasi Diri</a>
+        <a href="#contact">Kontak</a>
+    </nav>
+
+    <div class="container">
+        <section class="profile">
+            <img src="new-profile.png" alt="Foto Profil" class="profile-img">
+            <h2>Reynaldi Nanda Eka Putra</h2>
+            <p>Mahasiswa</p>
+        </section>
+
+        <section id="about" class="about">
+    <h2>Tentang Saya</h2>
+    <p>Saya adalah seorang mahasiswa Teknik Informatika dengan minat khusus dalam pengembangan web dan kecerdasan buatan. Saat ini, saya sedang menempuh pendidikan di Universitas Respati Yogyakarta dan telah berpartisipasi dalam beberapa proyek terkait teknologi informasi, termasuk pengembangan aplikasi web responsif dan penelitian kecerdasan buatan.</p>
+    <p>Saya belajar untuk memperluas wawasan dan keterampilan praktis. Selain itu, saya belajar bekerja dengan berbagai alat dan bahasa pemrograman, seperti HTML, CSS, JavaScript, dan Python, serta memiliki ketertarikan besar dalam pengembangan perangkat lunak berbasis AI.</p>
+    <p>Cita-cita saya adalah menjadi pengembang perangkat lunak profesional dan berkontribusi dalam menciptakan solusi teknologi inovatif yang dapat memajukan dunia digital. Saya percaya kombinasi antara keterampilan teknis, ketekunan dalam belajar, dan semangat kerja keras akan membawa saya mencapai kesuksesan di bidang teknologi.</p>
+</section>
+                                                                                                               
+        <section id="skills" class="skills">
+    <h2>Informasi Diri</h2>
+    <table>
+        <tr>
+            <td><strong>Nama Lengkap:</strong></td>
+            <td>Reynaldi Nanda Eka Putra</td>
+        </tr>
+        <tr>
+            <td><strong>Tempat, Tanggal Lahir:</strong></td>
+            <td>Yogyakarta, 20 September 2000</td>
+        </tr>
+        <tr>
+            <td><strong>Alamat:</strong></td>
+            <td>Jl. Malioboro No. 123, Yogyakarta</td>
+        </tr>
+        <tr>
+            <td><strong>Riwayat Pendidikan:</strong></td>
+            <td>
+                - SD Negeri 2 Blambangan Umpu, Way Kanan, Lampung<br>
+                - SMP Negeri 5 Blambangan Umpu, Lampung<br>
+                - SMAS Taruna Tunas Bangsa, Baturaja, Sumatera Selatan</td>
+        </tr>
+        <tr>
+            <td><strong>Hobi:</strong></td>
+            <td>Bermain musik, membaca buku teknologi</td>
+        </tr>
+        <tr>
+            <td><strong>Minat:</strong></td>
+            <td>Pengembangan Web, Kecerdasan Buatan, dan Pemrograman</td>
+        </tr>
+    </table>
+</section>
+
+    <footer id="contact">
+        <p>Hubungi saya di:</p>
+        <div class="social-icons">
+    <a href="https://www.instagram.com/yourprofile" class="instagram" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://wa.me/6282176885929" class="whatsapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:reyanda17802@gmail.com" class="email"><i class="fas fa-envelope"></i></a>
+        </div>
+        <p>&copy; 2024 R3Y-Profil Pribadi 17</p>
+    </footer>
+</body>
+</html>
